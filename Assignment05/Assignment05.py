@@ -80,8 +80,8 @@ while (True):
         obj_file = open(to_do, "w")
         for row in list_table:
             obj_file.write(row["Task"] + "," + row["Priority"] + "\n")
-            print("Saved")
-            input(please_press)
+        print("Saved")
+        input(please_press)
         continue
 
     # Step 7 - Exit program
