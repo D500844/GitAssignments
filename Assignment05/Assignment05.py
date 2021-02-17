@@ -13,7 +13,6 @@
 
 # Declaring Variables
 to_do = "F:\\_PythonClass\\Assignment05\\ToDoList.txt"   # An object that represents a file
-strData = ""                                             # A row of text data from the file
 dic_row = {}                                             # A row of data separated into elements of a dictionary {Task,Priority}
 list_table = []                                          # A list that acts as a 'table' of rows
 user_choice = None                                       # A Capture the user option selection
