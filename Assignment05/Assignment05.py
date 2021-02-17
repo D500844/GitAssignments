@@ -73,7 +73,7 @@ while (True):
             else:
                 print("Task can not be found.")
                 i = i + 1
-        continue
+                continue
 
     # Step 6 - Save tasks to the ToDoToDoList.txt file
     elif user_choice.strip() == '4':
